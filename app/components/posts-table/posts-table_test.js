@@ -4,7 +4,7 @@ describe('myApp.components.postsTable module', function() {
   var $componentController;
   var PostsTableController;
   var $httpBackend;
-  var url = 'http://jsonplaceholder.typicode.com/posts';
+  var url = '//jsonplaceholder.typicode.com/posts';
   var data = [{
     "userId": 1,
     "id": 1,

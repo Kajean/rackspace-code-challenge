@@ -13,7 +13,7 @@ function PostsTableController($http, $log) {
   ctrl.sortType = 'userId';
   ctrl.sortReverse = false;
 
-  $http.get('http://jsonplaceholder.typicode.com/posts').then(
+  $http.get('//jsonplaceholder.typicode.com/posts').then(
     function (rsp) {
       if (rsp && angular.isArray(rsp.data)) {
         ctrl.data = rsp.data;
