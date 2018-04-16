@@ -1,0 +1,42 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+table th {
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.table .thead-dark th {
+  color: #d8d8d8;
+}
+
+.table .thead-dark th:hover {
+  color: white;
+}
+
+.table-caret {
+  min-width: 11px;
+}
